@@ -1,4 +1,4 @@
 frontend-workflow
 =================
 
-My front-end workflow boilerplate
+My (incomplete) front-end workflow boilerplate

@@ -1,0 +1,9 @@
+$primary-color: green;
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $primary-color;
+}
