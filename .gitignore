@@ -5,3 +5,5 @@ dist
 bower_components
 .idea
 .DS_Store
+main.css
+main.css.map
