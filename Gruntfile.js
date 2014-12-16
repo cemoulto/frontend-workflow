@@ -111,6 +111,6 @@ module.exports = function (grunt) {
     
     // setup tasks
     grunt.registerTask('dev', ['clean:dev', 'htmllint', 'sass:dev', 'autoprefixer', 'connect:server', 'watch']);
-    grunt.registerTask('dist', ['clean:dist', 'sass:dist', 'autoprefixer', 'copy:dist', 'htmlmin:dist']);
+    grunt.registerTask('dist', ['clean', 'htmllint', 'sass:dist', 'autoprefixer', 'copy:dist', 'htmlmin:dist']);
 
 };
